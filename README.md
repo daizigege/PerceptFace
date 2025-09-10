@@ -1,6 +1,8 @@
 # PerceptFace
 PerceptFace
 
+HugFace API: https://huggingface.co/spaces/daizigege/PerceptFace
+
 Pre-trained models and insightface_func models
 https://drive.google.com/drive/folders/1nRIuPJ7h8tNTQYud9yVNoKtOA_aS1dvp?usp=drive_link
 
