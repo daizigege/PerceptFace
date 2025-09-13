@@ -41,7 +41,6 @@ class PerceptFace(nn.Module):
         self.netArc.eval()
 
 
-        # 水印嵌入网络
         self.ID_transformer=ID_transform(512).to(device)
         self.ID_transformer.eval()
 
@@ -64,6 +63,7 @@ class PerceptFace(nn.Module):
     def load(self, path):
         states = torch.load(path, map_location=lambda storage, loc: storage)
         self.ID_transformer.load_state_dict(states['WI'])
+
 
 
 
