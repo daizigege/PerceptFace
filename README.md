@@ -1,5 +1,5 @@
 # PerceptFace
-PerceptFace
+Make Identity Unextractable yet Perceptible: Synthesis-Based Privacy Protection for Subject Faces in Photos
 
 HugFace API: https://huggingface.co/spaces/daizigege/PerceptFace
 
